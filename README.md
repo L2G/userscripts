@@ -18,9 +18,9 @@ The development for each userscript is in its own branch:
 
  * `loosen-up` -- *Loosen Up!*, designed to make rigid Web page layouts more
    liquid and to make them fit a browser window of any width.
- * `mbrpt` -- *mb-random-page-turn* (great name, right?), which adds a button
-   to any multi-page report on [MusicBrainz](http://musicbrainz.org/) that
-   links to a random page.
+ * `mbrpt` -- *MusicBrainsz Random Page Turn* (great name, right?), which adds
+   a button to any multi-page report on [MusicBrainz](http://musicbrainz.org/)
+   that links to a random page.
  * `USE` -- the *Universal Subtitles Enabler*, designed to embed
    [Universal Subtitles'](http://universalsubtitles.org/) subtitles directly
    into popular video websites.

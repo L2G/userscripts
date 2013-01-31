@@ -4,9 +4,11 @@
 // @description   Relax page layouts to accommodate a range of window widths
 // @include       http://userscripts.org/*
 // @include       http://*.facebook.com/*
+// @include       https://manage.opscode.com/*
+// @version       1.1.alpha.3
 // ==/UserScript==
 //
-// Copyright © 2010 Lawrence Leonard Gilbert
+// Copyright © 2010, 2013 Lawrence Leonard Gilbert
 //
 // Use of this code is subject to the Creative Commons Attribution-Share Alike
 // 3.0 United States License.  For the details of this license, see:
@@ -52,6 +54,11 @@ switch ( document.domain ) {
             "#mainContainer #gb_content_and_toolbar { width: auto; float: none; } " +
             ".hasLeftCol #contentCol { margin-left: inherit; } " +
             ".ego_column { width: auto } "
+            );
+        break;
+    case "manage.opscode.com":
+        GM_addStyle(
+            "#container { min-width: 0 !important; }"
             );
         break;
 };
